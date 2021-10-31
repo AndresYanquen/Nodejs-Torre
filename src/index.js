@@ -13,6 +13,7 @@ app.use(require("./routes/index"));
 app.set("app", process.env.PORT || 4000);
 app.use(express.static(path.join(__dirname, "public")));
 
+//Hola Mundo
 app.listen(app.get("app"), () => {
   console.log(`Server on port ${app.get("app")}`);
 });
